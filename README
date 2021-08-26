@@ -1,0 +1,19 @@
+Given a binary tree, determine if it is height-balanced
+
+
+Input: root = [3,9,20,null,null,15,7]
+Output: true
+
+Input: root = [1,2,2,3,3,null,null,4,4]
+Output: false
+
+Input: root = []
+Output: true
+
+1. Check if subtrees have height with a distance of 1, between one another
+2. If they do, check if the subtrees are balanced
+
+Time O(log n) 
+space O(n)
+
+
